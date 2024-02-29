@@ -1,11 +1,8 @@
 <div class="git-wiki-tools">
 
     {% if site.disable_edit != true %}
-    <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/new/{{site.git_branch | escape}}{{ site.site_root | default: '/' }}{{ site.wiki_folder }}?filename=">Add
-            new</a></span>
-    <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/edit/{{site.git_branch | escape}}/{{ page.path | remove_first:'/' }}">Edit</a></span>
 
-    {% endif %}
+
 
     {% if site.blog_feature %}
     <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/new/{{site.git_branch | escape}}/_posts?filename=">Add
@@ -20,6 +17,7 @@
     {% if site.blog_feature %}
     <span class="tools-element"><a target="_blank" href="http://prose.io/#{{site.github.repository_nwo}}/new/{{site.git_branch | escape}}/_posts/">Add
             new post</a></span>
+    {% endif %}
     {% endif %}
     {% endif %}
 </div>
