@@ -1,3 +1,6 @@
+---
+redirect_from: /faqs
+---
 ## Frequently Asked Questions (FAQs)
 
 **Q: Where could i find a discord link to the server?**
